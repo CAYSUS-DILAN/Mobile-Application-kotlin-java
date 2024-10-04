@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D11B1B"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="center"
+        android:layout_marginBottom="159dp"
+        android:fontFamily="serif-monospace"
+        android:gravity="center"
+        android:letterSpacing="1"
+        android:rotation="-9"
+        android:rotationX="-4"
+        android:text="Hello World!"
+        android:textColor="#000000"
+        android:textSize="40sp"
+        android:textStyle="bold|italic"
+        android:typeface="sans"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="251dp"
+        android:layout_height="345dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="81dp"
+        android:layout_marginEnd="79dp"
+        android:layout_marginBottom="374dp"
+        android:layout_weight="1"
+        tools:srcCompat="@tools:sample/backgrounds/scenic" />
+</RelativeLayout>

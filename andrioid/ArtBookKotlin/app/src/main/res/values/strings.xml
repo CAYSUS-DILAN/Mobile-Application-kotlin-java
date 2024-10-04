@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">My BookShelf</string>
+    <string name="art_image_desc">"saved "</string>
+    <string name="back_button_desc">Back</string>
+</resources>

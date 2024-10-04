@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".MainActivity2">
+
+
+    <Button
+        android:id="@+id/b_square"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="72dp"
+        android:layout_marginBottom="265dp"
+        android:text="SQUARE"
+        tools:layout_editor_absoluteX="75dp"
+        tools:layout_editor_absoluteY="459dp" />
+
+
+    <Button
+        android:id="@+id/b_rect"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="60dp"
+        android:layout_marginBottom="264dp"
+        android:text="RECTANGLE"
+        tools:layout_editor_absoluteX="249dp"
+        tools:layout_editor_absoluteY="461dp" />
+
+
+    <Button
+        android:id="@+id/b_circle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="81dp"
+        android:layout_marginBottom="171dp"
+        android:text="CIRCLE" />
+
+
+    <Button
+        android:id="@+id/b_line"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="77dp"
+        android:layout_marginBottom="168dp"
+        android:text="LINE" />
+
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="197dp"
+        android:layout_marginEnd="146dp"
+        android:background="#000000"
+        app:srcCompat="@drawable/ic_launcher_foreground" />
+
+
+</RelativeLayout>
